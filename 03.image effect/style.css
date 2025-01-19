@@ -30,6 +30,7 @@ body{
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 46% 0,39% 100%,0 100%);
+    text-align: center;
 }
 .clip2{
     background: url(img2.jpg);
