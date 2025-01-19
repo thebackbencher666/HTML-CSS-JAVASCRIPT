@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #804e0e;
+}
+/* Style for the div container */
+div label[for="inputValue"] {
+    display: block; /* Ensure label is on its own line */
+    font-size: 16px; /* Increase font size for readability */
+    font-weight: bold; /* Make the label stand out */
+    margin-bottom: 8px; /* Add spacing between label and input */
+    color: #555; /* Neutral color for the label text */
+}
+
+/* Style for the input field */
+div input[type="number"] {
+    width: 100%; /* Make input field take full width of parent */
+    padding: 10px; /* Add padding for better click/touch experience */
+    font-size: 16px; /* Make the text in the input field readable */
+    border: 1px solid #ccc; /* Neutral border color */
+    border-radius: 5px; /* Slightly rounded corners */
+    background-color: #f9f9f9; /* Light background for input */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth hover/focus transitions */
+}
+
+/* Hover effect for the input field */
+div input[type="number"]:hover {
+    border-color: #4CAF50; /* Change border color on hover */
+}
+
+/* Focus effect for the input field */
+div input[type="number"]:focus {
+    border-color: #4CAF50; /* Highlight border when focused */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add glow effect */
+    outline: none; /* Remove default outline */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#result {
+    color: #4CAF50;
+    font-weight: bold;
+}

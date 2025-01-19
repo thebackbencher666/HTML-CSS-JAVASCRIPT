@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Unit Converter</h1>
+    <div>
+        <label for="inputValue">Enter Value:</label>
+        <input type="number" id="inputValue" placeholder="Enter Value">
+    </div>
+    <div>
+        <label for="unit">Select Conversion:</label>
+        <select name="" id="unit">
+            <option value="Ctof">Celsius to Farenheit</option>
+            <option value="FtoC">Farenheit to celsius</option>
+            <option value="kgtolb">Kg to pounds</option>
+            <option value="lbtokg">Pounds to KG</option>
+        </select>
+    </div>
+    <button id="convertBtn">Convert</button>
+    <h2>Result: <span id="result">0</span></h2>
+    <script src="unit.js"></script>
+    </div>
+</body>
+</html>
