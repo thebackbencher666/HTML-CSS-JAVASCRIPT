@@ -1,0 +1,84 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+
+/* Title styles */
+/* Container styling */
+.container {
+    max-width: 400px; /* Restrict the width for better readability */
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px; /* Add space inside the container */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center the text and buttons inside */
+    border: 2px solid #007bff; /* Add a colored border for aesthetics */
+}
+
+/* Title styling */
+.container h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+.container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.container button {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px; /* Add space between the buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.container button:hover {
+    background-color: #0056b3;
+}
+
+/* Result text styling */
+.container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+#rock{
+    background-color: #007bff;
+}
+
+#rock:hover{
+    background-color: #d62405;
+}
+
+#paper{
+    background-color: #007bff;
+}
+#paper:hover{
+    background-color: #050202;
+}
+#scissors{
+    background-color: #007bff;
+}
+#scissors:hover{
+    background-color: #e60edb;
+}
