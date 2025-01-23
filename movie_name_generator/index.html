@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Search App</h1>
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search by title">
+            <select id="genreFilter">
+                <option value="">All Genres</option>
+                <option value="Action">Action</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+                <option value="Horror">Horror</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Romantic">Romantic</option>
+            </select>
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="movieList"></div>
+    </div>
+    <script src="movie.js"></script>
+</body>
+</html>
